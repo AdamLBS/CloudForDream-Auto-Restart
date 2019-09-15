@@ -1,7 +1,7 @@
 # CloudForDream-Auto-Restart
 Script wich can automatically restart your CloudForDream VPS using CloudForDream's API. You can use it in a cron or whatever you want.
 
-# What you need ?
+# What do you need ?
 
 API KEY (https://cloudfordream.com/administration/api.php) 
 
