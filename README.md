@@ -25,6 +25,8 @@ You can add a cron like that (assuming the script is located in /usr/bin/script.
 crontab -e
 ``
 and then add
+
+
 ``bash
 */5 * * * * bash /usr/bin/script.bash /dev/null 2>&1
 ``
