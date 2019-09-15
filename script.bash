@@ -6,7 +6,7 @@ if [ $VPS_STATE = "poweredOff" ]
 then
         VPS_POWEREDOFF=$(echo "VPS's Powered Off. Restarting...")
         VPS_RESTART=$(curl -s 'https://api.cloudfordream.com/api/vps.php?api_key=&action=boot&vps=')
-	echo "$VPS_POWEREDOFF $VPS_RESTART" | mail -s  "Votre VPS a été redémarré automatiquement" 
+	echo "$VPS_POWEREDOFF $VPS_RESTART"
 fi
 
 if [ $VPS_STATE = "poweredOn" ]
