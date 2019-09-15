@@ -21,12 +21,12 @@ At the end it should look like this :
 # Automating (with cron)
 
 You can add a cron like that (assuming the script is located in /usr/bin/script.bash) : 
-``bash
+```bash
 crontab -e
-``
+```
 and then add
 
 
-``bash
+```bash
 */5 * * * * bash /usr/bin/script.bash /dev/null 2>&1
-``
+```
